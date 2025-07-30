@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // URL вашего API
-    const apiUrl = `http://localhost:5150/api/threads/${threadId}?url=${encodeURIComponent(forumUrl)}`;
+    const apiUrl = `https://localhost:7100/api/threads/${threadId}?url=${encodeURIComponent(forumUrl)}`;
 
     fetch(apiUrl)
         .then(response => {
