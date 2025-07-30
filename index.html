@@ -1,0 +1,20 @@
+    <!DOCTYPE html>
+    <html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Просмотр темы</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="loader">Загрузка обсуждения...</div>
+        <div id="error" class="hidden">Не удалось загрузить данные.</div>
+        <div id="thread-container" class="hidden">
+            <h1 id="thread-title"></h1>
+            <div id="posts-container"></div>
+        </div>
+
+        <script src="https://telegram.org/js/telegram-web-app.js"></script>
+        <script src="app.js"></script>
+    </body>
+    </html>
